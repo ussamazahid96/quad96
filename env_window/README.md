@@ -1,0 +1,1 @@
+The quadcopter body used in the simulator is available for free from [here](https://www.cgtrader.com/items/991773/download-page)
