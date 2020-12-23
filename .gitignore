@@ -1,0 +1,7 @@
+meta.json
+sda_trace_data.dat
+sds_trace_data.dat
+__pycache__
+simulator/__pycache__
+training/__pycache__
+quad96/sds_trace_data.dat
