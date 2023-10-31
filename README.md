@@ -36,7 +36,7 @@ docker pull xilinx/vitis-ai:1.2.82
 # then in docker install the dependencies
 conda activate vitis-ai-tensorflow
 pip install keras==2.2.5 pycairo gym
-git clone https://gitlab.com/ussamazahid96/quad96.git
+git clone https://github.com/ussamazahid96/quad96.git
 
 # run compile for ultra96 DPU
 cd quad96/quad96/deploy/host
@@ -56,7 +56,7 @@ Connect to wifi (take a look at `connect_wifi.py` on how to do it), clone 1uad96
 ```
 sudo apt update && sudo apt upgrade -y && sudo apt install -y vnc4server python3-tk
 sudo pip3 install bluepy pynput
-git clone https://gitlab.com/ussamazahid96/quad96.git --depth 1
+git clone https://github.com/ussamazahid96/quad96.git --depth 1
 cd quad96
 ./vnc.sh # (you can edit this file to set your  desired resolution and set password for the first time configuration)
 cd ../
